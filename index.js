@@ -10,7 +10,7 @@ server.route({
     method: 'GET',
     path: '/asking-for-a-friend',
     handler: (request, h) => {
-      const proxyUrl = `https://duckduckgo.com/${request.url.search}`;
+      const proxyUrl = `https://duckduckgo.com${request.url.search}`;
       console.log({ proxyUrl });
       return rp(proxyUrl);
     }

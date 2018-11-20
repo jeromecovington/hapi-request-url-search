@@ -1,0 +1,24 @@
+{
+  "name": "hapi-request-url-search",
+  "version": "1.0.0",
+  "description": "Debugging hapi request.url.search on node.js 8 vs. 10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeromecovington/hapi-request-url-search.git"
+  },
+  "author": "Jerome T. K. Covington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeromecovington/hapi-request-url-search/issues"
+  },
+  "homepage": "https://github.com/jeromecovington/hapi-request-url-search#readme",
+  "dependencies": {
+    "hapi": "^17.7.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
